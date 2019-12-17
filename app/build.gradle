@@ -28,21 +28,19 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.12.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.13.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
 
-sceneform.asset('sampledata/video_screen.obj',
-        'default',
-        'sampledata/video_screen.sfa',
-        'src/main/assets/video_screen')
 
 
 
-sceneform.asset('sampledata/screen7.obj',
-        'default',
-        'sampledata/screen7.sfa',
-        'src/main/assets/screen7')
+
+
+sceneform.asset('sampledata/screen19.obj',
+        'sampledata/material.mat',
+        'sampledata/screen19.sfa',
+        'src/main/assets/screen19')
